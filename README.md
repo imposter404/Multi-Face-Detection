@@ -4,7 +4,7 @@
 import numpy
 ```
 
-> ``` Batchfile 
+> ```  
 > pip install numpy
 > ```
 
