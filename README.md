@@ -5,6 +5,6 @@ import numpy
 ```
 
 > ``` Batchfile 
-> import numpy
+> pip install numpy
 > ```
 
