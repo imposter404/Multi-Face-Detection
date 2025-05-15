@@ -3,3 +3,7 @@
 ``` python 
 import numpy
 ```
+
+> ``` python 
+> import numpy
+> ```
