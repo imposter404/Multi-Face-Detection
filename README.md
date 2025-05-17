@@ -33,7 +33,7 @@ Detecting and Extracting Multiple Faces from a picture using OpenCV module writt
 > from PIL import Image
 > ```
 
-## Run
+### Run
 ``` python 
 Main.py
 ```
