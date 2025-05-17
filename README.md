@@ -38,6 +38,11 @@ Change your image path
 > imagePath='Data/l4.JPEG'
 > ```
 
+detect face
+> ``` python 
+> Face_Detect()
+> ```
+
 
 ### Run
 ``` python 
