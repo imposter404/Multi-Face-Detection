@@ -26,3 +26,19 @@ def Face_Detect():
     # Draw box around face----------------------------
     for (x, y, w, h) in face: 
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 4)
+
+    # show for Jupyter Notebook ----------------------
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    plt.figure(figsize=(20,10)) 
+    plt.imshow(img_rgb) 
+    plt.axis('off')
+
+    # show for Python ----------------------
+    from PIL import Image
+    pil_image=Image.fromarray(img_rgb)
+    pil_image.show()
+
+
+
+imagePath='Data/l4.JPEG'
+Face_Detect()
