@@ -15,6 +15,9 @@ Detecting and Extracting Multiple Faces from a picture using OpenCV module writt
 
 ## Python Dependency
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pypi/pypi-original.svg" height="50px" alt="pypi" />
+          
+
 
 > ``` console
 > pip install opencv-python
