@@ -21,6 +21,7 @@ Detecting and Extracting Multiple Faces from a picture using OpenCV module writt
 > ``` console
 > pip install opencv-python
 > pip install matplotlib
+> pip install pillow
 > ```
 
 
