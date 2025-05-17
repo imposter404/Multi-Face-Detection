@@ -1,5 +1,6 @@
 # Description
-Detecting and Extracting Multiple Faces from a picture using Open CV 
+Detecting and Extracting Multiple Faces from a picture using Open CV module written in Python
+
 
 
 # Setup
