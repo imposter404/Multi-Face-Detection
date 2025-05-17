@@ -1,11 +1,11 @@
 # Description
-Detecting and Extracting Multiple Faces from a picture using Open CV module written in Python
+Detecting and Extracting Multiple Faces from a picture using OpenCV module written in Python
 
 
 <div align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50px" alt="Python" />  
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg "height="50px" alt="OpenCV"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" "height="50px" alt="OpenCV"/>
           
        
 </div>
