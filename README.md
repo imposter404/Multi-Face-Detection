@@ -31,3 +31,8 @@ Detecting and Extracting Multiple Faces from a picture using OpenCV module writt
 > import cv2
 > import matplotlib.pyplot as plt
 > ```
+
+## Run
+```
+Python Main.py
+```
