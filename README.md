@@ -47,5 +47,5 @@ detect face
 
 ## Run
 ``` python 
-Main.py
+main.py
 ```
