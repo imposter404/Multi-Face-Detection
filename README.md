@@ -1,10 +1,20 @@
-# Multi-Face-Detection
+# Description
+Detecting and Extracting Multiple Faces from a picture
+# Setup
 
-``` python 
-import numpy
-```
+## Python Dependency
 
-> ```  
-> pip install numpy
+
+> ``` bat
+> pip install opencv-python
+> pip install matplotlib
 > ```
 
+
+
+
+# Code
+> ``` python
+> import cv2
+> import matplotlib.pyplot as plt
+> ```
