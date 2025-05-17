@@ -5,7 +5,7 @@ Detecting and Extracting Multiple Faces from a picture
 ## Python Dependency
 
 
-> ``` bat
+> ``` cmd
 > pip install opencv-python
 > pip install matplotlib
 > ```
