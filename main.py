@@ -15,3 +15,10 @@ def Face_Detect():
     # seclect the model --------------------------------
     face_classifier = cv2.CascadeClassifier( 
         cv2.data.haarcascades + "haarcascade_frontalface_default.xml" )
+
+    # detect face------------------------------
+    ## scale scaleFactor=1.1 = 10% of actual image  
+
+    x=(round(img.shape[0]*0.1))
+    face = face_classifier.detectMultiScale( 
+        gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(x,x))
