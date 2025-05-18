@@ -1,5 +1,5 @@
 # Description
-Detecting and Extracting Multiple Faces from a picture using OpenCV module written in Python
+Detecting and Extracting Multiple Faces from a picture using OpenCV and Face Recognition module written in Python
 
 
 <div align="left">
@@ -20,9 +20,24 @@ Detecting and Extracting Multiple Faces from a picture using OpenCV module writt
 
 > ``` console
 > pip install opencv-python
+> pip install face-recognition
 > pip install matplotlib
 > pip install pillow
 > ```
+
+## Dependency Error
+you may face this error
+
+```
+RuntimeError: Unsuported image type, must be 8bit gray or RGB
+```
+this error is due to `numpy`,
+uninstall `numpy`>=2 and reinstall it
+
+> ``` cmd
+> pip uninstall numpy
+> pip install numpy==1.26.4 
+>
 
 
 ---
@@ -30,18 +45,24 @@ Detecting and Extracting Multiple Faces from a picture using OpenCV module writt
 # Code
 > ``` python
 > import cv2
+> import face_recognition
 > import matplotlib.pyplot as plt
 > from PIL import Image
 > ```
 
 Change your image path
 > ``` python 
-> imagePath='Data/l4.JPEG'
+> imagePath='Data/l1.JPEG'
 > ```
 
-detect face
+Detect Face
 > ``` python 
 > Face_Detect()
+> ```
+
+Extract Face
+> ``` python 
+> Face_Extract()
 > ```
 
 
@@ -49,3 +70,9 @@ detect face
 ``` python 
 Main.py
 ```
+
+
+---
+# Disclamer
+picture is from `Linus Tech Tips` <br>
+![Linus Tech Tips]()
