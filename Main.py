@@ -1,10 +1,7 @@
 import cv2 
+import face_recognition
 import matplotlib.pyplot as plt 
-import PIL
-
-
-
-imagePath=""
+from PIL import Image
 
 def Face_Detect():
     # load image--------------------------
@@ -21,7 +18,7 @@ def Face_Detect():
     # detect face------------------------------
     ## scale scaleFactor=1.1 = 10% of actual image  
 
-    x=(round(img.shape[0]*0.1))
+    x=(round(img.shape[0]*0.06))
     face = face_classifier.detectMultiScale( 
         gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(x,x))
 
@@ -36,11 +33,30 @@ def Face_Detect():
     plt.axis('off')
 
     # show for Python ----------------------
-    from PIL import Image
     pil_image=Image.fromarray(img_rgb)
     pil_image.show()
 
 
 
-imagePath='Data/l4.JPEG'
+
+def Face_Extract():
+    global imagePath
+    image=face_recognition.load_image_file(imagePath)
+    face_locations=face_recognition.face_locations(image)
+    for face_location in face_locations:
+        top,right,bottom,left=face_location
+        face_image=image[top:bottom,left:right]
+
+
+        # show for Jupyter Notebook ----------------------
+        pil_image=Image.fromarray(face_image)
+        pil_image.show()
+
+        # show for Python ----------------------
+        plt.figure()
+        plt.imshow(pil_image) 
+        plt.axis('off')
+
+imagePath='pic/l1.JPEG'
 Face_Detect()
+Face_Extract()
