@@ -34,7 +34,7 @@ RuntimeError: Unsuported image type, must be 8bit gray or RGB
 this error is due to `numpy`,
 uninstall `numpy`>=2 and reinstall it
 
-> ``` cmd
+> ``` console 
 > pip uninstall numpy
 > pip install numpy==1.26.4 
 >
