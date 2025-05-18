@@ -75,4 +75,4 @@ Main.py
 ---
 # Disclamer
 picture is from `Linus Tech Tips` <br>
-![Linus Tech Tips]()
+![Linus Tech Tips](http://www.youtube.com/@LinusTechTips)
